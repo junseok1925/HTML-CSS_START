@@ -1,0 +1,21 @@
+body{
+  /* border: 1px solid red;
+  width: 600px;
+  height: 600px;
+  /* 배경사진넣기 */
+  /* background-image: url("../img/pepe.jpg");
+  background-repeat: no-repeat;
+  /* 전체 창에 맞춰서 크기 */
+  /* background-size: 150px;
+  background-position: left100px top30px;
+  background-attachment: fixed;  */
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+h1{
+  background-color: cornflowerblue;
+}
+
+.bg{
+  background-color: rgba(255,255,0,0.5);
+}
