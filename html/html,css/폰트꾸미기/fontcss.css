@@ -1,0 +1,59 @@
+/* "폰트"만 클자크기 설정 */
+.fs{
+  font-size: 30px;
+}
+
+/* 폰트 굵기 설정 100~900까지 지정가능 */
+/*  100 - lighter
+    400 - normal
+    700 - bold
+    900 - bolder */
+p{
+  font-weight: bold;
+
+  /* 줄간격 설정 */
+  line-height: 500%;
+
+  /* 글꼴 바꾸기 */
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+
+/* 소문자를 작은대문자로 바꾸기 */
+h3{
+  font-variant: small-caps;
+
+  /* 종합적으로 설정하기 */
+  /* font: [weight,style,variant],[size/height],[family] */
+  font : bold italic small-caps 30px/150% "굴림",Gulim;
+  /* 글자크기,글꼴(size,family)생략불가 */
+
+  /* color : red; */
+  /* color: rgb(255,100,12); */
+  color: #ff0000;
+
+  /* 글자꾸미기 */
+  text-decoration: underline;
+}
+h4{
+  /* 첫글자만 대문자로 */
+  text-transform: capitalize;
+  /* 대문자를 소문자로 */
+  text-transform: lowercase;
+  /* 소문자를 대문자로 */
+  text-transform: uppercase ;
+  /* 글자 그림자 만들기(가로,세로,퍼짐정도,그림자 색) 그림자2개가능*/
+  text-shadow: -2px -2px 5px red,blue 2px 2px 5px;
+  /* 자간(글자간격)설정 */
+  letter-spacing: 10px;
+}
+
+h5{
+  /* 단어끼리사이 조절 */
+  word-spacing: 50px;
+  /* 단어정렬 */
+  text-align: center;
+  /* 들여쓰기 */
+  text-indent: 50px;
+
+}
