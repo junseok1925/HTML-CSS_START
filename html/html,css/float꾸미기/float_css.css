@@ -1,0 +1,16 @@
+.float{
+  /* 더미텍스트를 이미지 왼쪽에 위치 */
+  float: left;
+}
+
+.clear{
+  /* 후에 쓴 글을 위에 설정된 위치가 아닌 정상대로 이미지밑에 위치 */
+  clear: both;
+}
+
+div{
+  width: 300px;
+  height: 100px;
+  /* 내용을 스크롤창안에 넣음 */
+  overflow: scroll;
+}
