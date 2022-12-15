@@ -1,0 +1,16 @@
+.nav{
+  /* 리스트도형지우기 */
+  list-style: none;
+}
+
+.nav li a {
+  /* 밑줄지우기 */
+  text-decoration: none;
+}
+
+.nav li {
+  /* 가로배치하기 */
+  float: left;
+  text-align: center;
+  width: 20%;
+}
