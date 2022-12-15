@@ -1,0 +1,21 @@
+table{
+  width: 50%;
+  border: 1px solid red;
+  border-collapse: collapse;
+  table-layout: fixed;
+  /* caption 위치 아래로 */
+  caption-side: bottom;
+  /* 비어있는 칸 숨기기
+   border-collapse: collapse; 와 같이 사용 불가 */
+  empty-cells: hide;
+}
+
+td,th{
+  border: 1px solid red;
+}
+
+img{
+  width: 15px;
+  /* 이미시위치설정 */
+  vertical-align: middle;
+}
