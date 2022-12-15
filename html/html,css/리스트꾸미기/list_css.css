@@ -1,0 +1,36 @@
+ol{
+  list-style-type: upper-alpha;
+  background-color: aquamarine;
+}
+ul{
+  /* 이미지파일로 리스트모양적용 */
+  /* list-style-image: url("../img/listimg.gif"); */
+
+  /* list-style-type: square; */
+  /* 모양없애기 */
+
+  /* list-style-type: none; */
+  /* 아무것도 안넣기*/
+  
+  /* 모양을 안쪽으로 넣기 */
+  list-style: circle inside url("../img/listimg.gif"); ;
+  
+  background-color: skyblue
+}
+
+ul li{
+  background-color: pink;
+  
+/* 이미지파일로 리스트모양적용 */
+  /* background-image: url("../img/pepe.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 35px;
+  margin: 0;
+  padding: 20px 0 20px 50px; */
+}
+
+.inside{
+  /* 리스트위치잡아준다 */
+  list-style-position: inside;
+}
