@@ -1,0 +1,32 @@
+div {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  float: left;
+  text-align: center;
+  line-height: 100px;
+  margin: 5px;
+}
+
+.box1 {
+  background-color: yellow;
+  box-sizing: border-box;
+}
+
+.box2 {
+  background-color: blue;
+  box-sizing: border-box;
+}
+
+
+.box3 {
+  background-color: green;
+  box-sizing: border-box;
+}
+
+
+.box4 {
+  background-color: purple;
+  box-sizing: border-box;
+  float: right;
+} 

@@ -1,0 +1,25 @@
+ul li a{
+  text-decoration: none;
+  color: red;
+}
+ul li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+.bg{
+  border: 1px solid black;
+  background: url("../day2/teemo.jpg") ;
+  background-size: cover;
+  height: 700px;
+  height: 500px;
+  /* 투명도 조절 */
+  opacity: 0.5;
+}
+
+#bgi {
+  background: url("../day2/kakaofriends.gif") no-repeat center bottom fixed;
+  opacity: 0.5
+  ;
+}

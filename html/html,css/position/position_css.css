@@ -1,0 +1,30 @@
+.rel{
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+  position: relative;
+
+}
+
+.rel img{
+  /* 절대위치 좌표를 입력 그곳에 있어야함 */
+  /* 부모태그가 ststic이면 안댐 그외는 모두 가능 */
+  position: absolute;
+  /* 정가운데로 보내기 */
+  left: 50%;
+  transform: translate(-50%,-50%); 
+  
+}
+
+.f{
+  position: fixed;
+  right: 5px;
+  bottom: 10px;
+}
+/* 스크롤을 내려도 제목이 따라옴 */
+h1{
+  position: sticky;
+  top: 0px;
+  background-color: rgba(255, 236, 24, 0.5)
+  
+}

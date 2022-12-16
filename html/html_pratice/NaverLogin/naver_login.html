@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NaverLogin</title>
+  <link rel="stylesheet" href="naver_login_css.css">
+</head>
+<body>
+  <div id = "container">
+    <div id = "wrapper">
+      <div id = "header">
+        <a href="#">
+          <img src="naverlogo.png">
+        </a>
+      </div>
+
+        <div class="loginWrap">
+          <form>
+            <div class="LogPw">
+              <input type="text" name="id" placeholder="아이디" required>
+              <input type="password" name="pw" placeholder="비밀번호" required>
+              <!-- 전송버튼 -->
+              <input class="submit" type="submit" value="로그인">
+             </div>
+
+            <div class = "stateIpWrap">
+              <div class="stateLeft">
+                <input type="checkbox" name="state" id="state">
+                <label for="state">로그인 상태 유지</label>
+              </div>
+
+              <div class="ipRight">
+                <label for="ip">IP보안</label>
+                <input type="checkbox" ip="state" id="ip">
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="loginWrap2">
+          <h2>더욱 간편한 로그인</h2>
+          <div>
+            <a href="#">QR 코드 로그인</a>
+            <a href="#">일회용 번호 로그인</a>
+          </div>
+        </div>
+        
+        <div class="searchWrap">
+          <a href="#">아이디 찾기</a> |
+          <a href="#">비밀번호 찾기</a> |
+          <a href="#">회원가입 찾기</a>
+        </div>
+
+        <div id="footer">
+          <img src="naverlogo.png">
+          Copyright ⓒ  Naver Copr.
+        </div>
+
+    </div>
+  </div>
+  
+</body>
+</html>

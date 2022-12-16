@@ -1,0 +1,27 @@
+div{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+.a{
+  top: 20px;
+  left: 20px;
+  background-color: blueviolet;
+  z-index: 2;
+}
+
+.b{
+  top: 40px;
+  left: 40px;
+  background-color: aqua;
+  z-index: 0;
+
+}
+
+.c{
+  top: 60px;
+  left: 60px;
+  background-color: gold;
+  z-index: 1;
+
+}

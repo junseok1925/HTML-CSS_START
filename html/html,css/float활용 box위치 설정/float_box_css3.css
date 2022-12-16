@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+div{
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#container{
+  width: 960px;
+   /* 컨테이너 가운데로  */
+  margin: auto;
+  margin-top: 20;
+  border: none;
+}
+
+#header{
+  border: 1px solid black;
+  padding: 20px;
+}
+
+#lside{
+  float: left;
+  width: 150px;
+  margin: 0 20px 20px 0;
+  box-sizing: border-box;
+}
+
+.inside{
+  /* 리스트위치잡아준다 */
+  list-style-position: inside;
+}
+
+
+#header{
+  margin-bottom: 20px;
+}
+
+#contents{
+  float: left;
+  width: 620px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+#side{
+  float: right;
+  width: 150px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+#footer{
+  width: 200px;
+  clear: both;
+}

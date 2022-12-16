@@ -1,0 +1,119 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Song+Myung&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /* 폰트사이즈/줄간격/폰트종류 */
+  font: 15px/1.8 'Noto Sans KR', sans-serif;
+}
+
+html,body{
+  height: 100%;
+}
+
+#container{
+  background-color: rgb(242, 242, 242);
+  width: 700px;
+  margin: auto
+  height: 100%
+}
+
+#wrapper {
+  width: 100%;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+img{
+  width: 250px;
+}
+
+#header{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.LogPw input{  
+  /* 아이디,비밀번호입력칸 */
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1xp solid rgb(163, 163, 163)7);
+}
+
+/* 로그인버튼 */
+.submit{
+  background-color:  #03c75a;
+  color: white;
+  /* 커서를 손가락모양으로 바꾸기 */
+  cursor: pointer;
+}
+
+/* 로그인 상태유지,ip보안 */
+.stateLeft{
+  float: left;
+}
+.ipRight{
+  float: right;
+}
+
+.loginWrap2{
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 50px;
+  overflow: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.loginWrap2 div a {
+  border: 1px solid #03c75a;
+  padding: 10px;
+  width: 47%;
+  box-sizing: border-box;
+  float: left;
+  color: #444;
+}
+/* a태그의 첫번째 자식 지정 */
+.loginWrap2 div a:first-child{
+  margin-right: 6%;
+}
+
+.loginWrap2 h2{
+  margin-bottom: 30px;
+}
+
+/* 커서를 올리면 색상 변하기 */
+.loginWrap2 div a:hover{
+  background-color: #03c75a;
+  color: white;
+}
+
+.searchWrap{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.searchWrap a {
+  margin: 0 10px;
+  color: rgb(138, 138, 138);
+} 
+
+#footer img{
+  width: 80px;
+  vertical-align: middle;
+}
+
+.loginWrap {
+  border-bottom:1px solid #ccc ;
+  overflow: auto;
+  padding-bottom: 20px;
+}
