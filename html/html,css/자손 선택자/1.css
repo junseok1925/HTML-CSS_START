@@ -1,0 +1,9 @@
+
+/* div안의 모든 자손클래스 선택 */
+div p {
+  color: rebeccapurple;
+}
+/* div의 자식클래스만 선택 */
+div > p {
+  color: red;
+}

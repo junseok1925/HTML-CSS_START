@@ -1,0 +1,76 @@
+div{
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+
+  /* x축으로만 옮기기 */
+  transform:  translateX(10px);
+
+  /* Y축으로만 옮기기 */
+  transform:  translateY(10px);
+
+  /* Y축을 0으로 설정시 X축으로만 이동 */
+  transform:  translate(10px,0);
+
+  /* 크기를 2배로 변경 양수만 들어갈수있음*/
+  transform: scale(2.0);
+
+  /* 10도 돌리기 */
+  transform: rotate(10deg);
+
+  /* 중심점을 왼쪽위를 설정으로 돌리기 */
+  transform-origin: left top;
+  transform: rotate(45deg);
+
+  /* 기울림설정 */
+  transform: skew(10deg,10deg);
+}
+
+.ani{
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  position: relative;
+  left: 100px;
+  top: 100px;
+  animation-name: test;
+  animation-duration: 3s;
+  
+  /* 모션설정(빨랐다 느려지기) */
+  animation-timing-function: ease;
+  /* 몇초후에 작동 */
+  animation-delay: 3s;
+  /* 무한반복 */
+  animation-iteration-count: infinite;
+  /* 실행후 왔다갔다 반복 */
+  animation-direction: alternate;
+  /* 역재생 */
+  animation-direction: reverse;
+  /* 역재생했다가 왔다갔다 반복 */
+  animation-direction: alternate-reverse;
+  /* 위에 코드 한번에 처리 */
+  animation: test 3s 1s ease-in infinite alternate fill-mode;
+  /* 동작 끝났을때의 상태를 지정 */
+  animation-fill-mode: backwards;
+  
+}
+
+.ani:hover{
+  /* 마우스커서올리면 동작멈춤 */
+ animation-play-state:  paused;
+}
+
+@keyframes test {
+  from {
+    left: 0;
+    background-color: blue;
+  }
+  to{
+    left: 500px;
+    background-color: red;
+  }
+
+}

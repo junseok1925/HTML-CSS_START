@@ -1,0 +1,24 @@
+
+/* href 속성을 가진 모든 것에 적용 */
+[href]{
+  color: red;
+}
+
+/* class 속성을 가진 모든 것에 적용*/
+[class]{
+  color: red;
+}
+
+/* p태그중 class 속성을 가진 것에만 적용 */
+p[class]{
+  color : blue
+}
+
+/* class 속성중 style2인것만 적용 */
+[class="style2"] {
+  color: aqua;
+}
+
+[title~="태그"]{
+  color: red;
+}

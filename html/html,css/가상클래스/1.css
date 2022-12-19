@@ -1,0 +1,38 @@
+
+
+/* p태그안에 1차 자식들에게 효과를 준다 */
+
+
+div p:first-child {
+/* p태그안에 첫번째 태그만 선택 */
+color: red;
+}
+
+div p:last-child{
+  /* p태그안에 마지막 태그만 선택 */
+  color: blue;
+}
+
+/* div p:nth-child()는 중간에 p태그가 아닌 다른태그가 껴있어도 계산에 다른태그도 포함 */
+
+
+div p:nth-child(2) {
+  /* p태그안에 지정된 순서의 태그를 선택 */
+  color: green;
+}
+
+
+div p:nth-child(odd){ 
+  /* p태그안에 홀수번째의 태그를 선택 */
+  color: cyan;
+}
+
+div p:nth-child(even){ 
+  /* p태그안에 짝수번째의 태그를 선택 */
+  color: pink
+}
+
+div p:nth-of-type(4){
+  /* p태그 중 4번째 (다른 태그가 껴있어도 p태그만 계산에 반영) */
+  color: rgb(255, 247, 0);
+}

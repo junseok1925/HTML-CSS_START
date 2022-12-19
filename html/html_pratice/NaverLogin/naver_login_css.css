@@ -44,13 +44,14 @@ img{
   padding: 10px;
   margin-bottom: 10px;
   box-sizing: border-box;
-  border: 1xp solid rgb(163, 163, 163)7);
+  border: 1xp solid rgb(163, 163, 163);
 }
 
 /* 로그인버튼 */
 .submit{
   background-color:  #03c75a;
   color: white;
+  border-color: white;
   /* 커서를 손가락모양으로 바꾸기 */
   cursor: pointer;
 }

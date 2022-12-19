@@ -1,0 +1,41 @@
+a{
+  text-decoration: none;
+}
+a:link{
+  color: aqua;
+}
+a:visited{
+  color: olive;
+}
+a:hover{
+  /* 커서를 갖다대면 */
+  background-color: blue;
+}
+a:active{
+  /* 누르고있으면 */
+  background-color: green;
+}
+input:focus{
+  background-color: pink;
+}
+
+/* 텍스트박스안에 글자색변경 */
+input::placeholder{
+  color: red;
+}
+
+/* 드래그시 색상변경 */
+a::selection{
+  background-color: aqua;
+}
+
+/* 클래스이름으로 드래그시 색상변경효과부여 */
+.p1::selection{
+  color: white;
+  background-color: blue;
+}
+
+.p2::selection{
+  color: yellow;
+  background-color: red;
+}
