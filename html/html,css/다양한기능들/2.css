@@ -1,0 +1,14 @@
+.container{
+  width: 300px;
+  border: 1px solid black;
+  text-align: center;
+  margin: auto;
+}
+
+
+b{
+  font-size: 40px;
+  vertical-align: middle;
+  border: 1px solid red;
+}
+

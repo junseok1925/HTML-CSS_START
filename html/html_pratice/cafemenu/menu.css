@@ -1,0 +1,46 @@
+
+.h{
+  float: left;
+  padding: 10px;
+}
+
+p::before{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a{
+  text-decoration: none;
+  border: 1px solid lightgray;
+  background-color: yellow;
+  padding: 5px 20px;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li{
+  line-height: 30px;
+  /* 왼쪽으로 붙이기 */
+  margin-left: -40px;
+}
+
+ul li::before{
+  content: "♥ ";
+}
+
+.sale::after{
+  content: "SALE";
+  font-size: 10x;
+  background: tomato;
+  color: white;
+  padding: 1px;
+  margin-left:10px;
+  border-radius: 5px;
+}

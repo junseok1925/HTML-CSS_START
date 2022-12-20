@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: skyblue;
+  /* 창 전체 채움 */
+  height: 100vh;
+  display: flex;
+  /* 가로 가운데 */
+  justify-content: center;
+  /* 세로 가운데 */
+  align-items: center;
+}
+
+.container{
+  background-color: palevioletred;
+  width: 70%;
+  height: 70%;
+  display: flex;
+  /* 가로 가운데 */
+  justify-content: center;
+  /* 세로 가운데 */
+  align-items: center;
+}
+
+.inner{
+  background-color: skyblue;
+  width: 70%;
+  height: 70%;
+  display: flex;
+   /* 가로 가운데 */
+   justify-content: center;
+   /* 세로 가운데 */
+   align-items: center;
+}

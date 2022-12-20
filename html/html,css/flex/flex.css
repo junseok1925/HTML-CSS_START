@@ -1,0 +1,73 @@
+.container{
+  border: 2px solid red;
+  height: 500px;
+  /* 자식들의 배치설정 */
+  display: flex;
+  /* justify-content: center; */
+  /* 자식들 정렬 */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* 정방향세로배치 */
+  /* flex-direction: column; */
+  /* 역방향세로배치 */
+  /* flex-direction: column-reverse; */
+  /* 정방향가로배치 */
+  /* flex-direction: row; */
+  /* 역방향가로배치 */
+  /* flex-direction: row-reverse; */
+  /* 창 너비를 줄이면 박스가 줄바꿈해서 내려감 */
+  /* flex-wrap: wrap;
+  align-content: center; */
+  
+}
+.container div{
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  margin: 5px;
+  /* 창을 늘렸을때 늘어나는 비율 */
+  /* flex-grow: 1; */
+}
+
+.box1{
+  background-color: beige;
+  /* flex-grow: 3;
+  flex-shrink: 1; */
+  /* flex-basis: 100px; */
+  /* 증가 감소 기본 설정 */
+
+  flex: 1;
+  /* 배치순서설정 */
+  /* order: 2; */
+
+  /* 배치위아래설정 */
+  align-self: center;
+ 
+}
+
+.box2{
+  background-color: skyblue;
+  /* 부모에 flex 설정시 자식클래스는 자동으로 부모에 맞게 높이설정됨(높이설정안할시) */
+  /* flex-grow: 2;
+  flex-shrink: 2; */
+  /* flex-basis: 200px; */
+  /* 증가 감소 기본 설정 */
+  flex: 1;
+  /* 배치순서설정 */
+  /* order: 0; */
+  
+  /* 배치위아래설정 */
+  align-self: flex-end;
+}
+
+.box3{
+  background-color: pink;
+  /* flex-grow: 1;
+  flex-shrink: 3; */
+  /* flex-basis: 300px; */
+  /* 증가 감소 기본 설정 */
+  flex: 1;
+  /* 배치순서설정 */
+  /* order: 1; */
+}

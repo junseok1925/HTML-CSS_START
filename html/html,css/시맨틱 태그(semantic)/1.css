@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, section, footer{
+  width: 100vw;
+
+}
+
+header{
+  background-color: tomato;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+section{
+  display: flex;
+  height: 50vh;
+}
+
+aside{
+  background-color: aqua;
+  flex: 1;
+}
+
+article{
+  background-color: lightgrey;
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  height: 50px;
+  background-color: cornflowerblue;
+}
