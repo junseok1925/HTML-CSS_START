@@ -38,3 +38,23 @@ footer{
   height: 50px;
   background-color: cornflowerblue;
 }
+
+@media(max-width:768px){
+  section{
+    flex-direction: column;
+  }
+
+  article{
+    order: 0;
+  }
+
+  section aside:first-child{
+    order: 1;
+    background-color: pink;
+  }
+
+  section aside:last-child{
+    order: 2;
+  
+  }
+}
